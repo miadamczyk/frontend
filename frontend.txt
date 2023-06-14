@@ -1,0 +1,4 @@
+Wykorzystuję technologię React.
+Aplikacja umożliwa tworzenie miejsc spotkań oraz dodawanie ulubionych (obrazki z systemem komentarzy zapisywanym w przeglądarkowej bazie danych).
+Zrealizowałem doczytywanie obrazków/innych danych przy scrollowaniu (na stronie meetups) oraz accordion (strona Q&A).
+

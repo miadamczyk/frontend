@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem 0 4rem 0;
+}
+
+.accordion {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.accordionTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #c52222;
+}
+
+.accordionTitle:hover {
+  background-color: #cc3a3a;
+}
+
+.accordionTitle,
+.accordionContent {
+  padding: 1rem;
+}
+
+.accordionContent {
+  background-color: rgb(215, 16, 16);
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
+  }
+
+  .accordion {
+    width: 90%;
+  }
+}
